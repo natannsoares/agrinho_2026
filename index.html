@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Agrinho: Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div class="quiz-header" id="header">
+            <h1>Quiz Agrinho</h1>
+            <p>Concurso de Programação</p>
+        </div>
+
+        <div class="start-section" id="start-screen">
+            <h2>Bem-vindo ao Desafio!</h2>
+            <p>Prepare-se para testar seus conhecimentos sobre o campo e a preservação ambiental.</p>
+            <div class="theme-box">
+                <strong>Tema:</strong><br>
+                "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"
+            </div>
+            <button id="start-btn" class="main-btn">Iniciar Quiz</button>
+        </div>
+
+        <div class="quiz-body" id="quiz" style="display: none;">
+            <h2 id="question">Pergunta vai aqui</h2>
+            <div class="btn-container" id="answer-buttons">
+                </div>
+        </div>
+
+        <div class="score-section" id="score-section" style="display: none;">
+            <h2>Fim de Jogo!</h2>
+            <p>Você acertou <span id="score">0</span> de <span id="total-questions">0</span> perguntas.</p>
+            <p id="feedback-msg"></p>
+            <button id="restart-btn" class="main-btn">Jogar Novamente</button>
+        </div>
+
+        <div class="controls" id="controls" style="display: none;">
+            <button id="next-btn">Próxima Pergunta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
